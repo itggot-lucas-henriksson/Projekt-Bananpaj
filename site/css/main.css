@@ -41,6 +41,14 @@ padding: 2px;
       background-color: #7F8AB5;
     }
 
+    .gallery {
+      display: flex;
+      flex-direction: row;
+      justify-content: flex-start;
+      flex-wrap: wrap;
+      align-items: center;
+    }
+
     aside {
       height: 100%;
       width: 15%;
