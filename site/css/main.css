@@ -1,0 +1,88 @@
+body {
+margin: 0px;
+}
+/*Desktop*/
+    header {
+      height: 120px;
+      width: 100%;
+      background-color: peachpuff;
+
+    }
+
+    .container {
+      display: flex;
+      flex-direction: row;
+      width: 100%;
+      height: 600px;
+    }
+
+    nav {
+      height: 100%;
+      width: 10%;
+      background-color: hotpink;
+    }
+
+    main {
+      height: 100%;
+      width: 75%;
+      background-color: red;
+    }
+
+    aside {
+      height: 100%;
+      width: 15%;
+      background-color: yellow;
+
+    }
+
+    footer {
+      height: 80px;
+      width: 100%;
+      background-color: orange;
+    }
+/*Desktop*/
+
+@media only screen
+and (min-device-width : 320px)
+and (max-device-width : 568px)
+and (orientation : portrait) {
+
+  header {
+    height: 75px;
+    width: 100%;
+    background-color: peachpuff;
+
+  }
+
+  .container {
+    display: flex;
+    flex-direction: column;
+    height: 418px;
+    width: 100%;
+  }
+
+  nav {
+    height: 50px;
+    width: 100%;
+    background-color: hotpink;
+  }
+
+  main {
+    height: 368px;
+    width: 100%;
+    background-color: red;
+  }
+
+  aside {
+    display: none;
+    height: 0px;
+    length: 0px;
+
+  }
+
+  footer {
+    height: 75px;
+    width: 100%;
+    background-color: orange;
+  }
+}
