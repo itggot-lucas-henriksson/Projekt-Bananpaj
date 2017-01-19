@@ -1,11 +1,20 @@
 body {
 margin: 0px;
 }
+
+p {
+padding: 2px;
+}
+
 /*Desktop*/
     header {
       height: 120px;
       width: 100%;
-      background-color: peachpuff;
+      background-color: #439532;
+      margin: 0px;
+      display: flex;
+      flex-direction: row;
+      justify-content: center;
 
     }
 
@@ -19,38 +28,46 @@ margin: 0px;
     nav {
       height: 100%;
       width: 10%;
-      background-color: hotpink;
+      background-color: #D5F09C;
+      display: flex;
+      flex-direction: column;
+      justify-content: flex-start;
+      align-items: center;
     }
 
     main {
       height: 100%;
       width: 75%;
-      background-color: red;
+      background-color: #99D88C;
     }
 
     aside {
       height: 100%;
       width: 15%;
-      background-color: yellow;
+      background-color: #85A738;
 
     }
 
     footer {
       height: 80px;
       width: 100%;
-      background-color: orange;
+      background-color: #FCFEA5;
+      margin: 0px;
+      display: flex;
+      flex-direction: row;
+      justify-content: center;
+
     }
 /*Desktop*/
 
 @media only screen
-and (min-device-width : 320px)
 and (max-device-width : 568px)
 and (orientation : portrait) {
 
   header {
     height: 75px;
     width: 100%;
-    background-color: peachpuff;
+    background-color: #439532;
 
   }
 
@@ -64,13 +81,17 @@ and (orientation : portrait) {
   nav {
     height: 50px;
     width: 100%;
-    background-color: hotpink;
+    background-color: #D5F09C;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+
   }
 
   main {
     height: 368px;
     width: 100%;
-    background-color: red;
+    background-color: #99D88C;
   }
 
   aside {
@@ -83,6 +104,6 @@ and (orientation : portrait) {
   footer {
     height: 75px;
     width: 100%;
-    background-color: orange;
+    background-color: #FCFEA5;
   }
 }
