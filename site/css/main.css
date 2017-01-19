@@ -2,6 +2,11 @@ body {
 margin: 0px;
 }
 
+.hidden {
+  display: none;
+  height: 0px;
+  width: 0px;
+}
 p {
 padding: 2px;
 }
@@ -46,7 +51,6 @@ padding: 2px;
       flex-direction: row;
       justify-content: flex-start;
       flex-wrap: wrap;
-      align-items: center;
     }
 
     aside {
